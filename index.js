@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const products = require('./products');
 
-const token = '6692534585:AAFzHaJKqPUKo9mypJJGbInKgfiF_fQVNCM';
+const token = '6654480465:AAE_kax82CXLdIYYGe-lRMSvix2WogFWakA';
 const bot = new TelegramBot(token, { polling: true });
 
 // Обработчик для команды /start
